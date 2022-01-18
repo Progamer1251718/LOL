@@ -38,8 +38,6 @@ class WebmPlayerS extends FlxSprite
 	public var ended:Bool = false;
 	public var paused:Bool = false;
 	
-	public var useSound:Bool = false;
-	
 	public function new(source:String, ownCamera:Bool = false, frameSkipLimit:Int = -1, okX:Float = null, okY:Float = null, okWidth:Float = null, okHeight:Float = null) 
     {
     	x = 0;
@@ -61,12 +59,6 @@ class WebmPlayerS extends FlxSprite
         super(x, y);
         
         altSource = source;
-        
-        useSound = Assets.exists(altSource.replace(".webm", ".txt")) && Assets.exists(altSource.replace(".webm", ".ogg"));
-        
-        if (useSound) {
-            videoFrames = Std.parseInt(Assets.getText(altSource.replace(".webm", ".txt")));
-        }
         
         io = new WebmIoFile(getThing(altSource));
 		videoplayer = new WebmPlayer();
@@ -96,17 +88,6 @@ class WebmPlayerS extends FlxSprite
 		
 		loadGraphic(videoplayer.bitmapData);
 		
-		if (useSound) {
-		    sound = FlxG.sound.play(altSource.replace(".webm", ".ogg"));
-		    sound.time = sound.length * soundMultiplier;
-		    doShit = true;
-		}
-        
-        if (frameSkipLimit != -1)
-		{
-			videoplayer.SKIP_STEP_LIMIT = frameSkipLimit;	
-		}
-		
 		if (ownCamera) {
 		    var cam = new FlxCamera();
 	        FlxG.cameras.add(cam);
@@ -118,7 +99,7 @@ class WebmPlayerS extends FlxSprite
     public function getThing(source:String)
     {
     	#if mobile
-        return AndroidThing.getPath(source);
+        return source;
         #elseif desktop
         return Sys.getCwd() + source;
         #else
@@ -177,45 +158,6 @@ class WebmPlayerS extends FlxSprite
 	override public function update(elapsed:Float)
 	{
 		super.update(elapsed);
-		
-		if (useSound)
-		{
-			var wasFuckingHit = videoplayer.wasHitOnce;
-			soundMultiplier = videoplayer.renderedCount / videoFrames;
-			
-			if (soundMultiplier > 1)
-			{
-				soundMultiplier = 1;
-			}
-			if (soundMultiplier < 0)
-			{
-				soundMultiplier = 0;
-			}
-			if (doShit)
-			{
-				var compareShit:Float = 50;
-				if (sound.time >= (sound.length * soundMultiplier) + compareShit || sound.time <= (sound.length * soundMultiplier) - compareShit)
-					sound.time = sound.length * soundMultiplier;
-			}
-			if (wasFuckingHit)
-			{
-			if (soundMultiplier == 0)
-			{
-				if (prevSoundMultiplier != 0)
-				{
-					sound.pause();
-					sound.time = 0;
-				}
-			} else {
-				if (prevSoundMultiplier == 0)
-				{
-					sound.resume();
-					sound.time = sound.length * soundMultiplier;
-				}
-			}
-			prevSoundMultiplier = soundMultiplier;
-			}
-		}
 	}
 	
 	override public function destroy() {
@@ -228,30 +170,4 @@ class Dimensions
 {
 	public static var width:Int = 1280;
 	public static var height:Int = 720;
-}
-
-class AndroidThing
-{
-	#if android
-	static var path:String = lime.system.System.applicationStorageDirectory;
-	#end
-
-	public static function getPath(id:String)
-	{
-		#if android
-		var file = Assets.getBytes(id);
-
-		var md5 = Md5.encode(Md5.make(file).toString());
-
-		if (FileSystem.exists(path + md5))
-			return path + md5;
-
-
-		File.saveBytes(path + md5, file);
-
-		return path + md5;
-		#else
-		return null;
-		#end
-	}
 }
