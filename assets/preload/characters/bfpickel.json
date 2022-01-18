@@ -3,8 +3,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-5,
-				0
+				-15,
+				10
 			],
 			"anim": "idle",
 			"fps": 24,
@@ -14,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				5,
-				-6
+				-33,
+				2
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -26,7 +26,7 @@
 			"loop": false,
 			"offsets": [
 				-10,
-				-50
+				0
 			],
 			"anim": "singDOWN",
 			"fps": 24,
@@ -37,7 +37,7 @@
 			"loop": false,
 			"offsets": [
 				-29,
-				27
+				7
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -47,8 +47,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-48,
-				-7
+				-28,
+				3
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -58,8 +58,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				7,
-				19
+				-33,
+				-1
 			],
 			"anim": "singLEFTmiss",
 			"fps": 24,
@@ -69,8 +69,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-15,
-				-19
+				-45,
+				1
 			],
 			"anim": "singDOWNmiss",
 			"fps": 24,
@@ -81,7 +81,7 @@
 			"loop": false,
 			"offsets": [
 				-36,
-				27
+				7
 			],
 			"anim": "singUPmiss",
 			"fps": 24,
@@ -92,7 +92,7 @@
 			"loop": false,
 			"offsets": [
 				-44,
-				22
+				2
 			],
 			"anim": "singRIGHTmiss",
 			"fps": 24,
@@ -135,8 +135,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				37,
-				11
+				-73,
+				-29
 			],
 			"anim": "firstDeath",
 			"fps": 24,
@@ -146,8 +146,8 @@
 		{
 			"loop": true,
 			"offsets": [
-				37,
-				5
+				-73,
+				-29
 			],
 			"anim": "deathLoop",
 			"fps": 24,
@@ -157,8 +157,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				37,
-				69
+				-73,
+				-28
 			],
 			"anim": "deathConfirm",
 			"fps": 24,
@@ -199,13 +199,13 @@
 			"indices": []
 		}
 	],
-	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"no_antialiasing": true,
+	"image": "characters/BF",
 	"position": [
 		0,
 		350
 	],
-	"healthicon": "bf",
+	"healthicon": "bf-pixel",
 	"flip_x": true,
 	"healthbar_colors": [
 		49,
@@ -213,9 +213,9 @@
 		209
 	],
 	"camera_position": [
-		0,
-		0
+		60,
+		-60
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 8.99999999999999
 }
