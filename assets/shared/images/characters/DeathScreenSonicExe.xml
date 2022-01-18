@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DeathScreenSonicExe.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="appear0000" x="5" y="5" width="631" height="747"/>
+	<SubTexture name="deathConfirmSonicExe0000" x="620" y="5" width="598" height="598"/>
+	<SubTexture name="deathConfirmSonicExe0001" x="620" y="613" width="598" height="598"/>
+	<SubTexture name="deathConfirmSonicExe0002" x="1228" y="5" width="598" height="598"/>
+	<SubTexture name="deathLoopSonicExe0000" x="5" y="5" width="605" height="624"/>
+</TextureAtlas>

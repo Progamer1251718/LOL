@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BF.png">
+<SubTexture name="BF NOTE DOWN instance 10000" x="0" y="0" width="762" height="660" frameX="0" frameY="0" frameWidth="762" frameHeight="660" />
+<SubTexture name="BF NOTE DOWN instance 10001" x="762" y="0" width="758" height="660" frameX="0" frameY="0" frameWidth="758" frameHeight="660" />
+<SubTexture name="BF NOTE LEFT instance 10000" x="1520" y="0" width="760" height="757" frameX="0" frameY="0" frameWidth="760" frameHeight="757" />
+<SubTexture name="BF NOTE LEFT instance 10001" x="2280" y="0" width="760" height="757" frameX="0" frameY="0" frameWidth="760" frameHeight="757" />
+<SubTexture name="BF NOTE RIGHT instance 10000" x="0" y="757" width="786" height="757" frameX="0" frameY="0" frameWidth="786" frameHeight="757" />
+<SubTexture name="BF NOTE RIGHT instance 10001" x="786" y="757" width="786" height="757" frameX="0" frameY="0" frameWidth="786" frameHeight="757" />
+<SubTexture name="BF NOTE UP instance 10000" x="1572" y="757" width="759" height="792" frameX="0" frameY="0" frameWidth="759" frameHeight="792" />
+<SubTexture name="BF NOTE UP instance 10001" x="2331" y="757" width="759" height="792" frameX="0" frameY="0" frameWidth="759" frameHeight="792" />
+<SubTexture name="BF Super idle dance instance 10000" x="0" y="1549" width="759" height="755" frameX="0" frameY="0" frameWidth="759" frameHeight="755" />
+<SubTexture name="BF Super idle dance instance 10001" x="759" y="1549" width="759" height="755" frameX="0" frameY="0" frameWidth="759" frameHeight="755" />
+<SubTexture name="BF Super idle dance instance 10002" x="1518" y="1549" width="759" height="755" frameX="0" frameY="0" frameWidth="759" frameHeight="755" />
+<SubTexture name="BF Super idle dance instance 10003" x="2277" y="1549" width="759" height="755" frameX="0" frameY="0" frameWidth="759" frameHeight="755" />
+<SubTexture name="BF Super idle dance instance 10004" x="0" y="2304" width="759" height="755" frameX="0" frameY="0" frameWidth="759" frameHeight="755" />
+<SubTexture name="BF Super idle dance instance 10005" x="759" y="2304" width="759" height="755" frameX="0" frameY="0" frameWidth="759" frameHeight="755" />
+<SubTexture name="BF Super idle dance instance 10006" x="1518" y="2304" width="759" height="755" frameX="0" frameY="0" frameWidth="759" frameHeight="755" />
+<SubTexture name="BF Super idle dance instance 10007" x="2277" y="2304" width="759" height="755" frameX="0" frameY="0" frameWidth="759" frameHeight="755" />
+<SubTexture name="BF Super idle dance instance 10008" x="0" y="3059" width="759" height="755" frameX="0" frameY="0" frameWidth="759" frameHeight="755" />
+<SubTexture name="BF Super idle dance instance 10009" x="759" y="3059" width="759" height="755" frameX="0" frameY="0" frameWidth="759" frameHeight="755" />
+</TextureAtlas>

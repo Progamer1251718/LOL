@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sunky.png">
+	<!-- Sprite Creado Por Brxlol -->
+	<!-- https://youtube.com/c/BryanXD -->
+	<SubTexture name="sunkyDOWN instance 10000" x="15" y="9" width="595" height="432" frameX="0" frameY="-100" frameWidth="595" frameHeight="432"/>
+	<SubTexture name="sunkyDOWN instance 10001" x="645" y="16" width="578" height="546" frameX="0" frameY="-100" frameWidth="578" frameHeight="546"/>
+	<SubTexture name="sunkyIDLE instance 10000" x="2301" y="565" width="500" height="481"
+frameX="0" frameY="-120" frameWidth="500" frameHeight="481"/>
+  <SubTexture name="sunkyIDLE instance 10001" x="2301" y="565" width="500" height="481"
+frameX="0" frameY="-120" frameWidth="500" frameHeight="481"/>
+  <SubTexture name="sunkyIDLE instance 10002" x="2301" y="565" width="500" height="481"
+frameX="0" frameY="-120" frameWidth="500" frameHeight="481"/>
+	<SubTexture name="sunkyIDLE instance 10003" x="10" y="1075" width="500" height="481" frameX="0" frameY="-120" frameWidth="500" frameHeight="481"/>
+	<SubTexture name="sunkyIDLE instance 10004" x="10" y="1075" width="500" height="481" frameX="0" frameY="-120" frameWidth="500" frameHeight="481"/>
+	<SubTexture name="sunkyIDLE instance 10005" x="10" y="1075" width="500" height="481" frameX="0" frameY="-120" frameWidth="500" frameHeight="481"/>
+	<SubTexture name="sunkyIDLE instance 10006" x="1049" y="1090" width="500" height="481" frameX="0" frameY="-120" frameWidth="500" frameHeight="481"/>
+	<SubTexture name="sunkyIDLE instance 10007" x="1049" y="1090" width="500" height="481" frameX="0" frameY="-120" frameWidth="500" frameHeight="481"/>
+	<SubTexture name="sunkyIDLE instance 10008" x="1049" y="1090" width="500" height="481" frameX="0" frameY="-120" frameWidth="500" frameHeight="481"/>
+	<SubTexture name="sunkyLEFT instance 10000" x="2231" y="47" width="474" height="500" frameX="0" frameY="-100" frameWidth="474" frameHeight="500"/>
+	<SubTexture name="sunkyLEFT instance 10001" x="2" y="455" width="474" height="500" frameX="0" frameY="-80" frameWidth="474" frameHeight="500"/>
+	<SubTexture name="sunkyRIGHT instance 10000" x="519" y="533" width="737" height="597" frameX="0" frameY="-100" frameWidth="737" frameHeight="597"/>
+	<SubTexture name="sunkyRIGHT instance 10001" x="1488" y="573" width="693" height="611" frameX="0" frameY="-100" frameWidth="693" frameHeight="611"/>
+	<SubTexture name="sunkyUP instance 10000" x="1275" y="38" width="474" height="500" frameX="0" frameY="-100" frameWidth="474" frameHeight="500"/>
+	<SubTexture name="sunkyUP instance 10001" x="1758" y="36" width="474" height="500" frameX="0" frameY="-100" frameWidth="474" frameHeight="500"/>
+</TextureAtlas>

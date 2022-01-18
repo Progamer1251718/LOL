@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="SONIC_X.png">
+<SubTexture name="X_Down instance 10000" x="0" y="0" width="733" height="655" frameX="0" frameY="0" frameWidth="733" frameHeight="655" />
+<SubTexture name="X_Dow instance 10001" x="733" y="0" width="733" height="655" frameX="0" frameY="0" frameWidth="733" frameHeight="655" />
+<SubTexture name="X_Down instance 10002" x="1466" y="0" width="733" height="655" frameX="0" frameY="0" frameWidth="733" frameHeight="655" />
+<SubTexture name="X_Idle instance 10000" x="2199" y="0" width="629" height="699" frameX="0" frameY="0" frameWidth="629" frameHeight="699" />
+<SubTexture name="X_Idle instance 10001" x="0" y="699" width="629" height="699" frameX="0" frameY="0" frameWidth="629" frameHeight="699" />
+<SubTexture name="X_Idle instance 10002" x="629" y="699" width="629" height="699" frameX="0" frameY="0" frameWidth="629" frameHeight="699" />
+<SubTexture name="X_Idle instance 10003" x="1258" y="699" width="629" height="699" frameX="0" frameY="0" frameWidth="629" frameHeight="699" />
+<SubTexture name="X_Left instance 10000" x="1887" y="699" width="690" height="692" frameX="0" frameY="0" frameWidth="690" frameHeight="692" />
+<SubTexture name="X_Left instance 10001" x="0" y="1398" width="690" height="692" frameX="0" frameY="0" frameWidth="690" frameHeight="692" />
+<SubTexture name="X_Left instance 10002" x="690" y="1398" width="690" height="692" frameX="0" frameY="0" frameWidth="690" frameHeight="692" />
+<SubTexture name="X_Right instance 10000" x="1380" y="1398" width="676" height="716" frameX="0" frameY="0" frameWidth="676" frameHeight="716" />
+<SubTexture name="X_Right instance 10001" x="2056" y="1398" width="676" height="716" frameX="0" frameY="0" frameWidth="676" frameHeight="716" />
+<SubTexture name="X_Right instance 10002" x="0" y="2114" width="676" height="716" frameX="0" frameY="0" frameWidth="676" frameHeight="716" />
+<SubTexture name="X_Up instance 10000" x="676" y="2114" width="646" height="787" frameX="0" frameY="0" frameWidth="646" frameHeight="787" />
+<SubTexture name="X_Up instance 10001" x="1322" y="2114" width="646" height="787" frameX="0" frameY="0" frameWidth="646" frameHeight="787" />
+<SubTexture name="X_Up instance 10002" x="1968" y="2114" width="646" height="787" frameX="0" frameY="0" frameWidth="646" frameHeight="787" />
+</TextureAtlas>

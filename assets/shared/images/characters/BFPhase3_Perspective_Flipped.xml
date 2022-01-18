@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BFPhase3_Perspective_Flipped.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle_Flip0000" x="512" y="5" width="507" height="487"/>
+	<SubTexture name="Sing_Down_Flip0000" x="5" y="5" width="497" height="512"/>
+	<SubTexture name="Sing_Left_Flip0000" x="512" y="502" width="483" height="482"/>
+	<SubTexture name="Sing_Right_Flip0000" x="1029" y="5" width="521" height="509"/>
+	<SubTexture name="Sing_Up_Flip0000" x="1005" y="524" width="478" height="551"/>
+</TextureAtlas>
